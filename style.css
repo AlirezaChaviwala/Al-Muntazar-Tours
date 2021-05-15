@@ -57,13 +57,14 @@ header nav img {
 
 nav ul {
     display: block;
-    width: 80%;
-    right: -1000000px;
+    width: 80vw;
+    right: -80vw;
     position: absolute;
     top: 10vh;
     background-color: var(--theme-color);
     opacity: 0.9;
     flex-direction: column;
+    transition: right 0.3s 0s linear;
 }
 
 header ul li a {
